@@ -1,6 +1,5 @@
 services:
   wire-pod:
-    platform: linux/arm64
     hostname: escapepod
     image: ghcr.io/kercre123/wire-pod:main
     restart: unless-stopped
