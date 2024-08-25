@@ -33,7 +33,7 @@ docker build --rm -t vector-wire-pod ./
 
 - Start a new Docker container running this image
 ```shell
-docker run -it \
+docker run -i -t \
   --hostname escapepod \
   --name vector-wire-pod \
   --restart unless-stopped \
